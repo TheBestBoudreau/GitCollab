@@ -7,13 +7,12 @@
 //
 
 import UIKit
-
 class DetailViewControlller: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        var modelManager = ModelManager()
     }
 
     override func didReceiveMemoryWarning() {
